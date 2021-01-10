@@ -32,12 +32,45 @@
           <div class="address">
             <h3>Shipping address</h3>
             <label for="name">Full Name</label>
-            <i class="fas fa-user icon"></i>
+            <i class="fas fa-user-circle icon"></i>
             <input
               type="text"
               id="name"
               placeholder="Rodney Cotton"
             /><!--name-->
+            <label for="address">Address</label>
+            <i class="fas fa-home icon"></i>
+            <input
+              type="text"
+              id="address"
+              placeholder="Your address..."
+            /><!--address-->
+            <label for="city">City</label>
+            <i class="fas fa-city icon"></i>
+            <input
+              type="text"
+              id="city"
+              placeholder="Your city..."
+            /><!--city-->
+            <label for="country">Country</label>
+            <i class="fas fa-globe-asia icon"></i>
+            <select name="country" id="country">
+              <option value="" default>Your country...</option>
+              <option value="bangladesh">Bangladesh</option>
+              <option value="pakistan">Pakistan</option>
+              <option value="india">India</option>
+              <option value="america">America</option>
+            </select>
+            <!--country-->
+            <label for="postal">Postal code</label>
+            <i class="fas fa-landmark icon"></i>
+            <input
+              type="text"
+              id="postal"
+              placeholder="Your postal code.."
+            /><!--postal code-->
+            <input type="checkbox" name="save" id="checkbox" />
+            <label for="checkbox">save this information for next time</label>
           </div>
           <!--address-->
           <a href="#" class="btn">Continue </a>
