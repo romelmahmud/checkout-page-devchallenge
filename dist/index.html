@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Checkout</h1>
+      <div class="main-container">
+        <div class="form-container">
+          <div class="contanct-info">
+            <h3>Contact information</h3>
+            <label for="email">E-mail</label>
+            <i class="fas fa-envelope icon"></i>
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter your email..."
+            /><!--e-mail-->
+            <label for="phone">Phone</label>
+            <i class="fas fa-phone-alt icon"></i>
+            <input
+              type="tel"
+              id="phone"
+              placeholder="Enter your phone..."
+              pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+            /><!--phone-->
+          </div>
+          <!--contact-info-->
+          <div class="address">
+            <h3>Shipping address</h3>
+            <label for="name">Full Name</label>
+            <i class="fas fa-user icon"></i>
+            <input
+              type="text"
+              id="name"
+              placeholder="Rodney Cotton"
+            /><!--name-->
+          </div>
+          <!--address-->
+          <a href="#" class="btn">Continue </a>
+        </div>
+        <!--form-container-->
+        <div class="checkout-container"></div>
+        <!--checkout-container-->
+      </div>
+      <!--main-container-->
+    </div>
+    <!--container end-->
+    <script
+      src="https://kit.fontawesome.com/2354933f4b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
