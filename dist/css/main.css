@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +11,26 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   max-width: 1440px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  max-width: 1440px;
+}
+
+.checkout-container {
+  padding: 2rem 0.625rem;
+  background-color: #f2f2f2;
+  border-radius: 12px;
+  margin-left: 2rem;
 }
 
 .container {
@@ -56,7 +77,7 @@ body {
 }
 
 .container .input-icons {
-  width: 100%;
+  width: 90%;
   margin-bottom: 10px;
 }
 
@@ -91,17 +112,14 @@ body {
   font-weight: 600;
 }
 
-.width-half {
-  max-width: 100%;
-}
-
 .country-postal {
+  max-width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .country-postal .country {
@@ -198,7 +216,7 @@ body {
   padding: 1rem 2.8rem;
   border-radius: 12px;
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 10%;
+  bottom: 50px;
 }
 /*# sourceMappingURL=main.css.map */

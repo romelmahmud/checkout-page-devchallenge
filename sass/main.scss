@@ -1,7 +1,8 @@
 @import "config";
-
+@import "checkout";
 .container {
   max-width: 70%;
+
   margin: 0 auto;
   padding: 4rem 1rem;
 
@@ -36,7 +37,7 @@
   }
 
   .input-icons {
-    width: 100%;
+    width: 90%;
     margin-bottom: 10px;
 
     ::placeholder {
@@ -64,13 +65,10 @@
   }
 }
 
-.width-half {
-  max-width: 100%;
-}
-
 .country-postal {
+  max-width: 90%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 
   .country {
     margin-right: 1rem;
@@ -169,6 +167,6 @@
   padding: 1rem 2.8rem;
   border-radius: 12px;
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 10%;
+  bottom: 50px;
 }
