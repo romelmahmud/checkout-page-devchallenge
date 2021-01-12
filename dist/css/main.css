@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
 }
 
@@ -29,7 +29,7 @@ body {
 .container h1 {
   font-size: 2.25rem;
   line-height: 1.21;
-  color: #4E5150;
+  color: #4e5150;
   margin-bottom: 3rem;
 }
 
@@ -125,7 +125,6 @@ body {
   cursor: pointer;
   height: 0;
   width: 0;
-  border: 1px solid #828282;
 }
 
 /* Create a custom checkbox */
@@ -141,7 +140,8 @@ body {
 
 /* On mouse-over, add a grey background color */
 .container-checkbox input ~ .checkmark {
-  background-color: #ccc;
+  background-color: #fff;
+  border: 1px solid #828282;
 }
 
 /* When the checkbox is checked, add a blue background */
@@ -171,5 +171,21 @@ body {
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+.form-container {
+  position: relative;
+}
+
+.form-container a {
+  text-decoration: none;
+  font-size: 1rem;
+  background-color: #f2994a;
+  color: #fff;
+  padding: 1rem 2.8rem;
+  border-radius: 12px;
+  position: absolute;
+  right: 0;
+  bottom: 50px;
 }
 /*# sourceMappingURL=main.css.map */

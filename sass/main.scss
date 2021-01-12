@@ -96,7 +96,6 @@
   cursor: pointer;
   height: 0;
   width: 0;
-  border: 1px solid #828282;
 }
 
 /* Create a custom checkbox */
@@ -112,7 +111,8 @@
 
 /* On mouse-over, add a grey background color */
 .container-checkbox input ~ .checkmark {
-  background-color: #ccc;
+  background-color: #fff;
+  border: 1px solid #828282;
 }
 
 /* When the checkbox is checked, add a blue background */
@@ -143,4 +143,21 @@
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+// botton
+.form-container {
+  position: relative;
+}
+
+.form-container a {
+  text-decoration: none;
+  font-size: 1rem;
+  background-color: $orange;
+  color: #fff;
+  padding: 1rem 2.8rem;
+  border-radius: 12px;
+  position: absolute;
+  right: 0;
+  bottom: 50px;
 }
