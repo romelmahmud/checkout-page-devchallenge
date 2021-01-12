@@ -17,4 +17,43 @@
     color: $grey-1;
     margin-bottom: 0.9rem;
   }
+  label {
+    font-size: 0.75rem;
+    line-height: 1.21;
+    color: $grey-2;
+  }
+  .icon {
+    position: absolute;
+  }
+
+  .input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  //   .icon {
+  //     padding: 40px 5px;
+  //     min-width: 100px;
+  //     text-align: center;
+  //   }
+
+  .input-feild {
+    width: 100%;
+    padding: 20px 5px;
+    font-size: 1rem;
+
+    font-family: "FontAwesome", "Montserrat";
+  }
+}
+.select-option {
+  color: $grey-3;
+  &:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: red transparent transparent transparent;
+  }
 }

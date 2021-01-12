@@ -13,63 +13,91 @@
         <div class="form-container">
           <div class="contanct-info">
             <h3>Contact information</h3>
-            <label for="email">E-mail</label>
-            <i class="fas fa-envelope icon"></i>
-            <input
-              type="email"
-              id="email"
-              placeholder="Enter your email..."
-            /><!--e-mail-->
-            <label for="phone">Phone</label>
-            <i class="fas fa-phone-alt icon"></i>
-            <input
-              type="tel"
-              id="phone"
-              placeholder="Enter your phone..."
-              pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
-            /><!--phone-->
+            <div class="input-icons">
+              <label for="email">E-mail</label>
+
+              <input
+                class="input-feild"
+                type="email"
+                id="email"
+                placeholder=" &#xf0e0;    Enter your email..."
+              />
+            </div>
+            <!--e-mail-->
+            <div class="input-icons">
+              <label for="phone">Phone</label>
+
+              <input
+                class="input-feild"
+                type="tel"
+                id="phone"
+                placeholder=" &#xf879;    Enter your phone..."
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+              /><!--phone-->
+            </div>
           </div>
           <!--contact-info-->
           <div class="address">
             <h3>Shipping address</h3>
-            <label for="name">Full Name</label>
-            <i class="fas fa-user-circle icon"></i>
-            <input
-              type="text"
-              id="name"
-              placeholder="Rodney Cotton"
-            /><!--name-->
-            <label for="address">Address</label>
-            <i class="fas fa-home icon"></i>
-            <input
-              type="text"
-              id="address"
-              placeholder="Your address..."
-            /><!--address-->
-            <label for="city">City</label>
-            <i class="fas fa-city icon"></i>
-            <input
-              type="text"
-              id="city"
-              placeholder="Your city..."
-            /><!--city-->
-            <label for="country">Country</label>
-            <i class="fas fa-globe-asia icon"></i>
-            <select name="country" id="country">
-              <option value="" default>Your country...</option>
-              <option value="bangladesh">Bangladesh</option>
-              <option value="pakistan">Pakistan</option>
-              <option value="india">India</option>
-              <option value="america">America</option>
-            </select>
+            <div class="input-icons">
+              <label for="name">Full Name</label>
+
+              <input
+                class="input-feild"
+                type="text"
+                id="name"
+                placeholder=" &#Xf2bd;    Rodney Cotton"
+              />
+            </div>
+            <!--name-->
+            <div class="input-icons">
+              <label for="address">Address</label>
+
+              <input
+                class="input-feild"
+                type="text"
+                id="address"
+                placeholder=" &#Xf015;    Your address..."
+              />
+            </div>
+            <!--address-->
+            <div class="input-icons">
+              <label for="city">City</label>
+
+              <input
+                class="input-feild"
+                type="text"
+                id="city"
+                placeholder=" &#Xf64f;    Your city..."
+              />
+            </div>
+            <!--city-->
+            <div class="input-icons">
+              <label for="country">Country</label>
+              <select
+                class="input-feild select-option"
+                name="country"
+                id="country"
+              >
+                <option value="" default>&#Xf57e; Your country...</option>
+                <option value="bangladesh">Bangladesh</option>
+                <option value="pakistan">Pakistan</option>
+                <option value="india">India</option>
+                <option value="america">America</option>
+              </select>
+            </div>
             <!--country-->
-            <label for="postal">Postal code</label>
-            <i class="fas fa-landmark icon"></i>
-            <input
-              type="text"
-              id="postal"
-              placeholder="Your postal code.."
-            /><!--postal code-->
+            <div class="input-icons">
+              <label for="postal">Postal code</label>
+
+              <input
+                class="input-feild"
+                type="text"
+                id="postal"
+                placeholder=" &#Xf66f;    Your postal code.."
+              />
+            </div>
+            <!--postal code-->
             <input type="checkbox" name="save" id="checkbox" />
             <label for="checkbox">save this information for next time</label>
           </div>

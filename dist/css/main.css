@@ -30,4 +30,41 @@ body {
   color: #333333;
   margin-bottom: 0.9rem;
 }
+
+.container label {
+  font-size: 0.75rem;
+  line-height: 1.21;
+  color: #4f4f4f;
+}
+
+.container .icon {
+  position: absolute;
+}
+
+.container .input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.container .input-feild {
+  width: 100%;
+  padding: 20px 5px;
+  font-size: 1rem;
+  font-family: "FontAwesome", "Montserrat";
+}
+
+.select-option {
+  color: #828282;
+}
+
+.select-option:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: red transparent transparent transparent;
+}
 /*# sourceMappingURL=main.css.map */
