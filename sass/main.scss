@@ -10,6 +10,10 @@
     justify-content: space-between;
   }
 
+  .address {
+    margin-top: 3.6rem;
+  }
+
   h1 {
     font-size: 2.25rem;
     line-height: 1.21;
@@ -61,12 +65,19 @@
 }
 
 .width-half {
-  max-width: 40%;
+  max-width: 100%;
 }
 
 .country-postal {
   display: flex;
   justify-content: space-between;
+
+  .country {
+    margin-right: 1rem;
+  }
+  .postal {
+    margin-left: 1rem;
+  }
 }
 
 /* Customize the label (the container) */
@@ -159,5 +170,5 @@
   border-radius: 12px;
   position: absolute;
   right: 0;
-  bottom: 50px;
+  bottom: 0;
 }
