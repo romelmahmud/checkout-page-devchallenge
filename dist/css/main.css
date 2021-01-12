@@ -104,13 +104,18 @@ body {
   display: block;
   position: relative;
   padding-left: 35px;
-  margin-bottom: 12px;
+  margin-bottom: 1rem;
+  margin-top: 1.43rem;
   cursor: pointer;
-  font-size: 22px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.container-checkbox p {
+  font-size: 1rem;
+  color: #828282;
 }
 
 /* Hide the browser's default checkbox */
@@ -120,6 +125,7 @@ body {
   cursor: pointer;
   height: 0;
   width: 0;
+  border: 1px solid #828282;
 }
 
 /* Create a custom checkbox */
@@ -127,8 +133,8 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  height: 25px;
-  width: 25px;
+  height: 21px;
+  width: 21px;
   border-radius: 4px;
   background-color: #eee;
 }
@@ -157,9 +163,9 @@ body {
 
 /* Style the checkmark/indicator */
 .container-checkbox .checkmark:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
+  left: 7px;
+  top: 3px;
+  width: 3px;
   height: 10px;
   border: solid white;
   border-width: 0 3px 3px 0;
