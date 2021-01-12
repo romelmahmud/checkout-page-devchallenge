@@ -46,25 +46,47 @@ body {
   margin-bottom: 10px;
 }
 
-.container .input-feild {
+.container .input-icons ::-webkit-input-placeholder {
+  font-weight: 600;
+}
+
+.container .input-icons :-ms-input-placeholder {
+  font-weight: 600;
+}
+
+.container .input-icons ::-ms-input-placeholder {
+  font-weight: 600;
+}
+
+.container .input-icons ::placeholder {
+  font-weight: 600;
+}
+
+.container .input-icons .input-feild {
   width: 100%;
   padding: 20px 5px;
   font-size: 1rem;
+  border: 1px solid #828282;
+  border-radius: 12px;
+  margin-top: 0.435rem;
   font-family: "FontAwesome", "Montserrat";
 }
 
-.select-option {
+.container .select-option {
   color: #828282;
+  font-weight: 600;
 }
 
-.select-option:after {
-  position: absolute;
-  content: "";
-  top: 14px;
-  right: 10px;
-  width: 0;
-  height: 0;
-  border: 6px solid transparent;
-  border-color: red transparent transparent transparent;
+.width-half {
+  max-width: 40%;
+}
+
+.country-postal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=main.css.map */

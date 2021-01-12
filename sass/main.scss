@@ -29,31 +29,37 @@
   .input-icons {
     width: 100%;
     margin-bottom: 10px;
+
+    ::placeholder {
+      font-weight: 600;
+    }
+    //   .icon {
+    //     padding: 40px 5px;
+    //     min-width: 100px;
+    //     text-align: center;
+    //   }
+
+    .input-feild {
+      width: 100%;
+      padding: 20px 5px;
+      font-size: 1rem;
+      border: 1px solid $grey-3;
+      border-radius: 12px;
+      margin-top: 0.435rem;
+      font-family: "FontAwesome", "Montserrat";
+    }
   }
-  //   .icon {
-  //     padding: 40px 5px;
-  //     min-width: 100px;
-  //     text-align: center;
-  //   }
-
-  .input-feild {
-    width: 100%;
-    padding: 20px 5px;
-    font-size: 1rem;
-
-    font-family: "FontAwesome", "Montserrat";
+  .select-option {
+    color: $grey-3;
+    font-weight: 600;
   }
 }
-.select-option {
-  color: $grey-3;
-  &:after {
-    position: absolute;
-    content: "";
-    top: 14px;
-    right: 10px;
-    width: 0;
-    height: 0;
-    border: 6px solid transparent;
-    border-color: red transparent transparent transparent;
-  }
+
+.width-half {
+  max-width: 40%;
+}
+
+.country-postal {
+  display: flex;
+  justify-content: space-between;
 }

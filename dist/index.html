@@ -72,32 +72,35 @@
               />
             </div>
             <!--city-->
-            <div class="input-icons">
-              <label for="country">Country</label>
-              <select
-                class="input-feild select-option"
-                name="country"
-                id="country"
-              >
-                <option value="" default>&#Xf57e; Your country...</option>
-                <option value="bangladesh">Bangladesh</option>
-                <option value="pakistan">Pakistan</option>
-                <option value="india">India</option>
-                <option value="america">America</option>
-              </select>
-            </div>
-            <!--country-->
-            <div class="input-icons">
-              <label for="postal">Postal code</label>
+            <div class="country-postal">
+              <div class="input-icons width-half">
+                <label for="country">Country</label>
+                <select
+                  class="input-feild select-option"
+                  name="country"
+                  id="country"
+                >
+                  <option value="" default>&#Xf57e; Your country...</option>
+                  <option value="bangladesh">Bangladesh</option>
+                  <option value="pakistan">Pakistan</option>
+                  <option value="india">India</option>
+                  <option value="america">America</option>
+                </select>
+              </div>
+              <!--country-->
+              <div class="input-icons width-half">
+                <label for="postal">Postal code</label>
 
-              <input
-                class="input-feild"
-                type="text"
-                id="postal"
-                placeholder=" &#Xf66f;    Your postal code.."
-              />
+                <input
+                  class="input-feild"
+                  type="text"
+                  id="postal"
+                  placeholder=" &#Xf66f;    Your postal code.."
+                />
+              </div>
+              <!--postal code-->
             </div>
-            <!--postal code-->
+            <!---country-postal-->
             <input type="checkbox" name="save" id="checkbox" />
             <label for="checkbox">save this information for next time</label>
           </div>
