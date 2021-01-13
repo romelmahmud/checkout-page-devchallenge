@@ -30,7 +30,24 @@ body {
   padding: 2rem 0.625rem;
   background-color: #f2f2f2;
   border-radius: 12px;
-  margin-left: 2rem;
+}
+
+.checkout-container .product-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.5em;
+}
+
+.product-img {
+  width: 50%;
+}
+
+.product-img img {
+  width: 100%;
+  min-width: 150px;
+  max-width: 170px;
+  border-radius: 12px;
 }
 
 .container {
@@ -206,9 +223,11 @@ body {
 
 .form-container {
   position: relative;
+  padding-bottom: 2rem;
 }
 
 .form-container a {
+  display: inline-block;
   text-decoration: none;
   font-size: 1rem;
   background-color: #f2994a;
@@ -217,6 +236,6 @@ body {
   border-radius: 12px;
   position: absolute;
   right: 10%;
-  bottom: 50px;
+  bottom: 0;
 }
 /*# sourceMappingURL=main.css.map */

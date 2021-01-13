@@ -157,9 +157,11 @@
 // botton
 .form-container {
   position: relative;
+  padding-bottom: 2rem;
 }
 
 .form-container a {
+  display: inline-block;
   text-decoration: none;
   font-size: 1rem;
   background-color: $orange;
@@ -168,5 +170,5 @@
   border-radius: 12px;
   position: absolute;
   right: 10%;
-  bottom: 50px;
+  bottom: 0;
 }
