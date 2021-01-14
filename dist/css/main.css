@@ -30,17 +30,26 @@ body {
   padding: 2rem 0.625rem;
   background-color: #f2f2f2;
   border-radius: 12px;
+  margin-top: 2em;
 }
 
 .checkout-container .product-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 1.5em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 95%;
+  margin: 1em auto;
 }
 
 .product-img {
-  width: 50%;
+  max-width: 45%;
+}
+
+.product-info {
+  max-width: 45%;
 }
 
 .product-img img {
@@ -48,6 +57,10 @@ body {
   min-width: 150px;
   max-width: 170px;
   border-radius: 12px;
+}
+
+.product-card-container {
+  padding-bottom: 4em;
 }
 
 .container {
@@ -63,6 +76,9 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .container .address {
