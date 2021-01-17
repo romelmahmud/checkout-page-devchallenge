@@ -1,14 +1,14 @@
 @import "config";
 .checkout-container {
   max-width: 100%;
-  padding: 1em 4em 1em 1em;
+  padding: 2em 2.25em 1em 1.5em;
   background-color: #f2f2f2;
   border-radius: 12px;
   margin-top: 1em;
 
   .product-container {
     display: flex;
-    padding: 0.75em 1em;
+    padding: 0;
     justify-content: space-between;
     max-width: 100%;
   }
@@ -16,17 +16,22 @@
 
 .product-img {
   max-width: 50%;
+  margin-bottom: 1.5em;
   margin-right: 0.65em;
 }
 .product-info {
   min-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 1.75em;
 
   margin-left: 0.65em;
 
   p {
     font-size: 1rem;
     color: $grey-4;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
   }
 
   .color {
@@ -54,7 +59,7 @@
 
 // increase-decrease-btn
 .increase-decrease-btn-container {
-  max-width: 100%;
+  max-width: 80%;
   border: 1px solid $grey-3;
   display: flex;
   justify-content: center;
