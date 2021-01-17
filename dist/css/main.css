@@ -27,29 +27,32 @@ body {
 }
 
 .checkout-container {
-  padding: 1em 0.625em;
+  max-width: 100%;
+  padding: 1em 4em 1em 1em;
   background-color: #f2f2f2;
   border-radius: 12px;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .checkout-container .product-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 0.75em 1em;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 95%;
-  margin: 0.5em auto;
+  max-width: 100%;
 }
 
 .product-img {
-  max-width: 45%;
+  max-width: 50%;
+  margin-right: 0.65em;
 }
 
 .product-info {
-  max-width: 45%;
+  min-width: 50%;
+  margin-left: 0.65em;
 }
 
 .product-info p {
@@ -67,12 +70,11 @@ body {
 .product-info .text-through {
   font-size: 0.75rem;
   text-decoration: line-through;
+  color: #4e5150;
 }
 
 .product-img img {
   width: 100%;
-  min-width: 150px;
-  max-width: 170px;
   border-radius: 12px;
 }
 
@@ -80,66 +82,38 @@ body {
   padding-bottom: 4em;
 }
 
-.increase-decrease {
-  border: 1px solid #4f4f4f;
+.increase-decrease-btn-container {
+  max-width: 100%;
+  border: 1px solid #828282;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1em;
+  border-radius: 12px;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.value-button {
-  display: inline-block;
-  border: 1px solid #ddd;
-  margin: 0px;
-  width: 40px;
-  height: 40px;
+.increase-decrease-btn-container .decrease-btn,
+.increase-decrease-btn-container .increase-btn {
+  background-color: #e0e0e0;
+  width: 1.325rem;
+  height: 1.325rem;
+  font-size: 1rem;
+  line-height: 1.5;
   text-align: center;
-  vertical-align: middle;
-  padding: 11px 0;
-  background: #eee;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-.value-button:hover {
+  color: #333333;
+  border-radius: 4px;
   cursor: pointer;
 }
 
-#decrease {
-  margin-right: -4px;
-  border-radius: 8px 0 0 8px;
-}
-
-#increase {
-  margin-left: -4px;
-  border-radius: 0 8px 8px 0;
-}
-
-#input-wrap {
-  margin: 0px;
-  padding: 0px;
-}
-
-input#number {
-  text-align: center;
-  border: none;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  margin: 0px;
-  width: 40px;
-  height: 40px;
-}
-
-/* Chrome, Safari, Edge, Opera */
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-/* Firefox */
-input[type="number"] {
-  -moz-appearance: textfield;
+.increase-decrease-btn-container .value {
+  color: #333333;
 }
 
 .container {
