@@ -80,6 +80,10 @@ body {
   padding-bottom: 4em;
 }
 
+.increase-decrease {
+  border: 1px solid #4f4f4f;
+}
+
 .value-button {
   display: inline-block;
   border: 1px solid #ddd;
@@ -126,6 +130,7 @@ input#number {
   height: 40px;
 }
 
+/* Chrome, Safari, Edge, Opera */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
