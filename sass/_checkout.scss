@@ -1,14 +1,16 @@
 @import "config";
+
 .checkout-container {
   max-width: 100%;
-  padding: 2em 2.25em 1em 1.5em;
+  padding: 2em 2.25em 0 1.5em;
   background-color: #f2f2f2;
   border-radius: 12px;
   margin-top: 1em;
+  margin-left: 5em;
 
   .product-container {
     display: flex;
-    padding: 0;
+
     justify-content: space-between;
     max-width: 100%;
   }
@@ -16,7 +18,7 @@
 
 .product-img {
   max-width: 50%;
-  margin-bottom: 1.5em;
+  margin-bottom: 2em;
   margin-right: 0.65em;
 }
 .product-info {
@@ -24,7 +26,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 1.75em;
+  margin-bottom: 2.25em;
 
   margin-left: 0.65em;
 
@@ -54,7 +56,7 @@
 }
 
 .product-card-container {
-  padding-bottom: 4em;
+  padding-bottom: 0.5em;
 }
 
 // increase-decrease-btn
@@ -83,5 +85,22 @@
 
   .value {
     color: $grey-1;
+  }
+}
+
+.checkout-price-container {
+  margin-top: 5.5em;
+  color: $grey-1;
+  .checkout-price {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75em 0;
+    border-top: 1px solid #bdbdbd;
+    .tag {
+      font-size: 1.125rem;
+    }
+    .price {
+      font-size: 0.875rem;
+    }
   }
 }
