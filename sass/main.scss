@@ -44,11 +44,6 @@
     ::placeholder {
       font-weight: 600;
     }
-    //   .icon {
-    //     padding: 40px 5px;
-    //     min-width: 100px;
-    //     text-align: center;
-    //   }
 
     .input-feild {
       width: 100%;
@@ -194,19 +189,37 @@ footer {
 @media (max-width: 1100px) {
   .container {
     max-width: 90%;
+    h1 {
+      display: inline-block;
+    }
   }
 }
 
 @media (max-width: 800px) {
   .container {
     max-width: 95%;
+    padding: 6em 0;
+    .checkout-container {
+      position: relative;
+      max-width: 100%;
+      margin: 0.75em auto;
+    }
+
+    h1 {
+      font-size: 2rem;
+      position: absolute;
+      left: 100px;
+      top: 0px;
+      z-index: 10;
+      padding-top: 1em;
+    }
     & .main-container {
       flex-direction: column-reverse;
     }
   }
 
-  .checkout-container {
+  .form-container {
     max-width: 100%;
-    margin: 0 0 2em 0;
+    margin: auto;
   }
 }
