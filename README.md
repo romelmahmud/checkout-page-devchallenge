@@ -37,9 +37,11 @@
 ## Overview
 
 <h2 align="center">Desktop</h2>
+
 ![screenshot](https://i.postimg.cc/vT3Mf9Nx/desktop.png)
 
 <h2 align="center">Mobile</h2>
+
 ![screenshot](https://i.postimg.cc/fWKMGnRW/mobile.png)
 
 This my 6th Challenge from [DevChallenge](http://devchallenges.io) and its take most of my time to make it.
@@ -82,5 +84,5 @@ $ npm start
 
 ## Contact
 
-- GitHub [@your-username](https://github.com/romelmahmud)
-- Twitter [@your-twitter](https://twitter.com/romel_mahmud)
+- GitHub [@romelmahmud](https://github.com/romelmahmud)
+- Twitter [@romel_mahmud](https://twitter.com/romel_mahmud)
