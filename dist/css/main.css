@@ -104,7 +104,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 1em;
-  border-radius: 12px;
+  border-radius: 0.75em;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -120,11 +120,12 @@ body {
   line-height: 1.5;
   text-align: center;
   color: #333333;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   cursor: pointer;
 }
 
 .increase-decrease-btn-container .value {
+  font-size: 1rem;
   color: #333333;
 }
 
@@ -338,12 +339,14 @@ body {
   background-color: #f2994a;
   color: #fff;
   padding: 1rem 2.8rem;
-  border-radius: 12px;
+  border-radius: 0.75em;
   position: absolute;
   right: 10%;
   border: none;
   cursor: pointer;
   margin-top: 1em;
+  font-weight: 600;
+  font-family: "Montserrat";
 }
 
 footer {
@@ -370,22 +373,40 @@ footer p {
   .container h1 {
     display: inline-block;
   }
+  .product-info p {
+    font-size: 0.75rem;
+  }
+  .product-info .color {
+    font-size: 0.875rem;
+  }
+  .product-info .text-through {
+    font-size: 0.625rem;
+  }
+  .increase-decrease-btn-container .decrease-btn,
+  .increase-decrease-btn-container .increase-btn {
+    width: 1rem;
+    height: 1rem;
+    font-size: 0.75rem;
+  }
 }
 
 @media (max-width: 800px) {
   .container {
     max-width: 95%;
-    padding: 6em 0;
+    padding: 4em 0;
   }
   .container .checkout-container {
     position: relative;
-    max-width: 100%;
+    max-width: 95%;
     margin: 0.75em auto;
   }
+  .container h3 {
+    font-size: 1rem;
+  }
   .container h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     position: absolute;
-    left: 100px;
+    left: 200px;
     top: 0px;
     z-index: 10;
     padding-top: 1em;
@@ -398,7 +419,56 @@ footer p {
   }
   .form-container {
     max-width: 100%;
-    margin: auto;
+    margin: 1em 0 1em 1em;
+  }
+  .product-info p {
+    font-size: 0.75rem;
+  }
+  .increase-decrease-btn-container .decrease-btn,
+  .increase-decrease-btn-container .increase-btn {
+    width: 1.325rem;
+    height: 1.325rem;
+    font-size: 1rem;
+  }
+  .input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .input-icons ::-webkit-input-placeholder {
+    font-weight: 600;
+    font-size: 0.85rem;
+  }
+  .input-icons :-ms-input-placeholder {
+    font-weight: 600;
+    font-size: 0.85rem;
+  }
+  .input-icons ::-ms-input-placeholder {
+    font-weight: 600;
+    font-size: 0.85rem;
+  }
+  .input-icons ::placeholder {
+    font-weight: 600;
+    font-size: 0.85rem;
+  }
+  .input-icons .input-feild {
+    width: 100%;
+    padding: 5px 2px;
+    font-size: 0.25rem;
+    border: 1px solid #828282;
+    border-radius: 0.75rem;
+    margin-top: 0.435rem;
+    font-family: "FontAwesome", "Montserrat";
+  }
+}
+
+@media (max-width: 500px) {
+  .container h1 {
+    font-size: 1.5rem;
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    z-index: 10;
+    padding-top: 1em;
   }
 }
 /*# sourceMappingURL=main.css.map */
